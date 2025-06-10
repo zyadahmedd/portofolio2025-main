@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    font-size: 14px;
+  }
+  nav {
+    align-items: flex-start;
+  }
+  nav h1 {
+    font-size: 20px;
+  }
+  nav .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+  ul {
+    display: none;
+    flex-direction: column;
+  }
+  
+}
